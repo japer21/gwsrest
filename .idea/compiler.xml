@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="wsrest_integrationTest" target="1.8" />
+      <module name="wsrest_main" target="1.8" />
+      <module name="wsrest_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

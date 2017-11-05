@@ -1,0 +1,814 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TP WSRest _ Jaglika Perkova",
+		"_postman_id": "958f6c5f-7020-b886-0661-4bb7e71b8fbf",
+		"description": "Collection POSTMAN pour le TP de grails wsrest.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/2",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/book/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/3",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/book/3",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/books",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/books",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "JSON"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/books",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/books",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "XML"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/10",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/book/10",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "XML"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/libraries",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/libraries",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "XML"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/libraries",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/libraries",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "JSON"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "XML"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/1",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "JSON"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library?name=Goce Delcev &address=25 bd 8 Octobre Skopje&yearCreated=1980",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library?name=Goce Delcev &address=25 bd 8 Octobre Skopje&yearCreated=1980",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Goce Delcev ",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "address",
+							"value": "25 bd 8 Octobre Skopje",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "yearCreated",
+							"value": "1980",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library?name=Jules Vernes&address=30 bd de Paris, Ile de France&yearCreated=1999",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library?name=Jules Vernes&address=30 bd de Paris, Ile de France&yearCreated=1999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jules Vernes",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "address",
+							"value": "30 bd de Paris, Ile de France",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "yearCreated",
+							"value": "1999",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book?name=Jolie&releaseDate=3911-01-25T23:00:00Z&isbn=215452121&author=Anne Kits&library=3",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/book?name=Jolie&releaseDate=3911-01-25T23:00:00Z&isbn=215452121&author=Anne Kits&library=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"book"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jolie",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "releaseDate",
+							"value": "3911-01-25T23:00:00Z",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isbn",
+							"value": "215452121",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "author",
+							"value": "Anne Kits",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "library",
+							"value": "3",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book?name=Tu me manques&releaseDate=3911-01-25T23:00:00Z&isbn=014215478&author=Miles Dulia&library=3",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/book?name=Tu me manques&releaseDate=3911-01-25T23:00:00Z&isbn=014215478&author=Miles Dulia&library=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"book"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Tu me manques",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "releaseDate",
+							"value": "3911-01-25T23:00:00Z",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isbn",
+							"value": "014215478",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "author",
+							"value": "Miles Dulia",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "library",
+							"value": "3",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book?name=P S I love you&releaseDate=3911-01-25T23:00:00Z&isbn=014215478&author=James Kooling&library=4",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/book?name=P S I love you&releaseDate=3911-01-25T23:00:00Z&isbn=014215478&author=James Kooling&library=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"book"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "P S I love you",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "releaseDate",
+							"value": "3911-01-25T23:00:00Z",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isbn",
+							"value": "014215478",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "author",
+							"value": "James Kooling",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "library",
+							"value": "4",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/1?yearCreated=1996",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library/1?yearCreated=1996",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library",
+						"1"
+					],
+					"query": [
+						{
+							"key": "yearCreated",
+							"value": "1996",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "update / mise à jour de la bibliotheque avec id=1 \non met à jour le parametre yearCreated"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/3?address=11 bd November, Skopje",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library/3?address=11 bd November, Skopje",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library",
+						"3"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "11 bd November, Skopje",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/3?address=11 bd November, Skopje",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library/5?address=11 bd November, Skopje",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library",
+						"5"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "11 bd November, Skopje",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/2?library=2&isbn=00322123250012",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/book/2?library=2&isbn=00322123250012",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"book",
+						"2"
+					],
+					"query": [
+						{
+							"key": "library",
+							"value": "2",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isbn",
+							"value": "00322123250012",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "misa à jour d'une livre"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/10?library=2&isbn=0032212325012",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/book/10?library=2&isbn=0032212325012",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"book",
+						"10"
+					],
+					"query": [
+						{
+							"key": "library",
+							"value": "2",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isbn",
+							"value": "0032212325012",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "misa à jour d'une livre qui n'existe pas donc un http code 404 Not Found"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/1",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/1",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "suppression d'une biblio"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/3",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/book/3",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "suppression d'une livre ce qui declenche orphan alors il y a une suppression de cette livre dans chacune des biblios qui la contiennent"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/book/10",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/book/10",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": "suppression d'une livre qui n'existe pas"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2/books/",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/2/books/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "json"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/6/books/",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/6/books/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "json\n\nrecuperation des livres d'une biblio qui n'existe pas donc un http code 404 Not found"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2/book/2",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/2/book/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "xml",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "xml"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2/book/4?isbn=0000330000",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library/2/book/4?isbn=0000330000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library",
+						"2",
+						"book",
+						"4"
+					],
+					"query": [
+						{
+							"key": "isbn",
+							"value": "0000330000",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "modification d'une livre "
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2/book/3?isbn=0000330555",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library/2/book/3?isbn=0000330555",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library",
+						"2",
+						"book",
+						"3"
+					],
+					"query": [
+						{
+							"key": "isbn",
+							"value": "0000330555",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {},
+				"description": "modification d'une livre qui n'existe pas dans la biblio demandée"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2/book?name=Si jamais&releaseDate=3911-01-25T23:00:00Z&isbn=2103254564120&author=Bonna Kila",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8081/tpwsrest/api/library/2/book?name=Si jamais&releaseDate=3911-01-25T23:00:00Z&isbn=2103254564120&author=Bonna Kila",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"tpwsrest",
+						"api",
+						"library",
+						"2",
+						"book"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Si jamais",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "releaseDate",
+							"value": "3911-01-25T23:00:00Z",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "isbn",
+							"value": "2103254564120",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "author",
+							"value": "Bonna Kila",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8081/tpwsrest/api/library/2/book/2",
+			"request": {
+				"url": "http://localhost:8081/tpwsrest/api/library/2/book/2",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

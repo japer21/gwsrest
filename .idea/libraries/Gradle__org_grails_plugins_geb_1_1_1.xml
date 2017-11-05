@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails.plugins:geb:1.1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.1.1/f041942fec76be4f7dc8616a2a85e3cd403a5e4/geb-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails.plugins/geb/1.1.1/8c116752ceda3f23161a286d5c0afe5d3d856822/geb-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
